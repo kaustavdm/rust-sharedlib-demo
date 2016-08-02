@@ -1,4 +1,4 @@
-# Runtime loading of dynamic libaries
+# Runtime loading of dynamic libaries in Rust
 
 This is a demo of loading libraries at runtime using [sharedlib](https://github.com/Tyleo/sharedlib) in Rust.
 
@@ -29,4 +29,12 @@ To run, execute the compiled `sharedlib_test` binary from the project root with 
 $ ./target/debug/sharedlib_test foo
 $ ./target/debug/sharedlib_test bar
 $ ./target/debug/sharedlib_test hello
+```
+
+### Create a package
+
+Run:
+
+```
+$ make package
 ```
