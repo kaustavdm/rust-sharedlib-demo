@@ -1,0 +1,11 @@
+[package]
+name = "sharedlib_test"
+version = "0.1.0"
+authors = ["Kaustav Das Modak <kaustav.dasmodak@yahoo.co.in>"]
+
+[dependencies]
+sharedlib = "3.1.0"
+
+[[bin]]
+name = "sharedlib_test"
+path = "sharedlib_test.rs"
