@@ -1,6 +1,6 @@
 # Runtime loading of dynamic libaries in Rust
 
-This is a demo of loading libraries at runtime using [sharedlib](https://github.com/Tyleo/sharedlib) in Rust.
+This is a demo of loading libraries at runtime using [sharedlib](https://github.com/Tyleo/sharedlib) in Rust. The dynamic libraries themselves are written in Rust. This method can be used to implement a lightweight plugin system for Rust programs where the plugins are written in Rust.
 
 ## Usage
 
